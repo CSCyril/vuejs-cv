@@ -23,7 +23,7 @@ app.use('/cv', cvRouter)
 
 app.get('/test', (req, res) => {
   res.json({
-    message:'HELLO';
+    message:'HELLO'
   })
 })
 
