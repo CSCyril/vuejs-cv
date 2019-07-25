@@ -1,0 +1,145 @@
+<template>
+    <div id="contact">
+        <b-container>
+            <div class="header-section">
+                <h2 class="separator">Me contacter</h2>
+            </div>
+            <div class="info-section">
+                <b-row>
+                    <b-col class="text-center contact-info">
+                        <ul>
+                            <li><font-awesome-icon icon="phone" size="3x" /></li>
+                            <li></li>
+                            <li>Téléphone</li>
+                        </ul>
+                    </b-col>
+                    <b-col class="text-center contact-info">
+                        <font-awesome-icon icon="map-marker-alt" size="3x" />
+                        ddddd
+                    </b-col>
+                    <b-col class="text-center contact-info">
+                        <font-awesome-icon icon="envelope" size="3x" />
+                        dddddddd
+                    </b-col>
+                </b-row>
+            </div>
+            <div class="form-section info-section">
+                <b-form @submit="onSubmit">
+                    <b-form-group>
+                        <div class="form-line form-group">
+                            <b-row>
+                                <b-col cols="6"><b-form-input id="input-1" v-model="form.name" required placeholder="Nom"></b-form-input></b-col>
+                                <b-col cols="6"><b-form-input id="input-2" v-model="form.mail" type="email" required placeholder="Email"></b-form-input></b-col>
+                            </b-row>
+                            <!-- <div class="form-line-left">
+                                <b-form-input class="first-form-line" id="input-1" v-model="form.name" required placeholder="Nom"></b-form-input>
+                            </div>
+                            <div class="form-line-right">
+                                <b-form-input class="first-form-line" id="input-2" v-model="form.mail" type="email" required placeholder="Email"></b-form-input>
+                            </div> -->
+                        </div>
+                        <div class="form-line form-group">
+                            <b-form-input id="input-3" v-model="form.subject" required placeholder="Sujet"></b-form-input>
+                        </div>
+                        <div class="form-line form-group">
+                            <b-form-input id="input-4" v-model="form.message" required placeholder="Message"></b-form-input>
+                        </div>
+                    </b-form-group>
+                    <b-row>
+                        <b-col class="text-center">
+                            <b-button class="submit-button" type="submit" variant="primary"><font-awesome-icon icon="paper-plane" style="color: #fff" /><span>Envoyer</span></b-button>
+                        </b-col>
+                    </b-row>
+                </b-form>
+            </div>
+        </b-container>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'contact',
+    props: {
+        general: Array,
+    },
+    data() {
+        return {
+            form: {
+                name: '',
+                mail: '',
+                subject: '',
+                message: '',
+            }
+        }
+    },
+    methods: {
+        onSubmit(evt) {
+            evt.preventDefault()
+            alert(JSON.stringify(this.form))
+        }
+    }
+}
+</script>
+
+
+<style>
+#contact {
+    background: #f7f8fa;
+}
+
+.info-section {
+    background: #fff;
+    border-top: 5px solid #2c3e50;
+    padding: 50px 30px 0;
+    margin-bottom: 50px;
+}
+
+#contact svg {
+    color: #1B75BC;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.first-form-line {
+    width: 50%;
+    float: left;
+}
+
+.form-line {
+    width: 100%;
+}
+
+.form-line input {
+    height: 50px;
+    background: rgba(61, 64, 79, 0.1);
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #2c3e50;
+}
+
+#input-4 {
+    height: 200px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background: rgba(61, 64, 79, 0.1);
+}
+
+.submit-button {
+    background: #1B75BC;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 0;
+}
+
+.submit-button svg {
+    color: #fff;
+}
+
+.submit-button span {
+    padding-left: 10px;
+}
+</style>

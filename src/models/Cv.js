@@ -1,0 +1,16 @@
+const tag = '[CvModel]'
+
+export default {
+    getInitCV () {
+        console.log(tag, 'getCV()');
+        if (window.fetch) {
+            //return fetch('https://phantombuster.s3.amazonaws.com/L0GHa2EvBCs/32J1x6oMgxrlokkDDjk0zg/result.json', {
+            return fetch('/cv', {
+                method: 'get',
+                headers: { 'Content-Type': 'application/json' }
+            })
+                .then(res => res.json())
+                .catch(err => { throw new Error(err) })
+        }
+    }
+}
