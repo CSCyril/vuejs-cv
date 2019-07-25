@@ -21,6 +21,12 @@ app.use(express.static(path.join(__dirname, 'dist')))
 app.use('/message', messageRouter)
 app.use('/cv', cvRouter)
 
+app.get('/test', (req, res) => {
+  res.json({
+    message:'HELLO';
+  })
+})
+
 /**
  * Get port from environment and store in Express.
  */
