@@ -9,8 +9,8 @@ export default {
                 method: 'get',
                 headers: { 'Content-Type': 'application/json' }
             })
-                //.then(res => res.json())
-                .then(res => res.text())
+                .then(res => res.json())
+                //.then(res => res.text())
                 .catch(err => { throw new Error(err) })
         }
     }
