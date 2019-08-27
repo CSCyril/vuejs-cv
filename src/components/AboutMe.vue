@@ -129,5 +129,6 @@ export default {
 
 .picture img {
     border-right: 5px solid #1B75BC;
+    width: 100%;
 }
 </style>

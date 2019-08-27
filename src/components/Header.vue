@@ -5,8 +5,8 @@
                 <h1>{{ infos.firstName }} {{ infos.lastName }}</h1>
                 <h4>{{ infos.headline }}</h4>
                 <div class="button-wrapper">
-                    <a class="" href="#"><font-awesome-icon icon="eye" /><span> Voir mon profil</span></a>
-                    <a class="" href="#"><font-awesome-icon icon="envelope" /><span> Me contacter</span></a>
+                    <a class="" href="#about"><font-awesome-icon icon="eye" /><span> Voir mon profil</span></a>
+                    <a class="" href="#contact"><font-awesome-icon icon="envelope" /><span> Me contacter</span></a>
                 </div>
             </div>
         </div>
