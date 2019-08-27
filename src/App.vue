@@ -2,13 +2,15 @@
   <div id="app">
     <Header :infos="resume[0].general" />
     <AboutMe :general="resume[0].general" :details="resume[0].details" />
-    <div class="container">
-      <div class="cv text-right">
-        <h2 class="separator">Mon profil</h2>
+    <div id="myprofile">
+      <div class="container">
+        <div class="cv text-right">
+          <h2 class="separator">Mon profil</h2>
+        </div>
+        <Formations :formations="resume[0].schools" />
+        <Jobs :jobs="resume[0].jobs" />
+        <Hobbies/>
       </div>
-      <Formations :formations="resume[0].schools" />
-      <Jobs :jobs="resume[0].jobs" />
-      <Hobbies/>
     </div>
     <Contact :general="resume[0].general" />
   </div>

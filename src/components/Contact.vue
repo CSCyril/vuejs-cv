@@ -9,17 +9,23 @@
                     <b-col class="text-center contact-info">
                         <ul>
                             <li><font-awesome-icon icon="phone" size="3x" /></li>
-                            <li></li>
-                            <li>Téléphone</li>
+                            <li>06 86 43 89 58</li>
+                            <li><font-awesome-icon :icon="['far', 'dot-circle']" />TELEPHONE</li>
                         </ul>
                     </b-col>
                     <b-col class="text-center contact-info">
-                        <font-awesome-icon icon="map-marker-alt" size="3x" />
-                        ddddd
+                        <ul>
+                            <li><font-awesome-icon icon="map-marker-alt" size="3x" /></li>
+                            <li>Vendenheim, FRANCE</li>
+                            <li><font-awesome-icon :icon="['far', 'dot-circle']" />ADRESSE</li>
+                        </ul>
                     </b-col>
                     <b-col class="text-center contact-info">
-                        <font-awesome-icon icon="envelope" size="3x" />
-                        dddddddd
+                        <ul>
+                            <li><font-awesome-icon icon="envelope" size="3x" /></li>
+                            <li>greinercyr@gmail.com</li>
+                            <li><font-awesome-icon :icon="['far', 'dot-circle']" />EMAIL</li>
+                        </ul>
                     </b-col>
                 </b-row>
             </div>
@@ -85,6 +91,12 @@ export default {
 <style>
 #contact {
     background: #f7f8fa;
+    overflow: hidden;
+}
+
+.form-section {
+    padding-bottom: 50px !important;
+    margin-bottom: 100px !important;
 }
 
 .info-section {
@@ -92,6 +104,11 @@ export default {
     border-top: 5px solid #2c3e50;
     padding: 50px 30px 0;
     margin-bottom: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+}
+
+.info-section ul {
+    list-style-type: none;
 }
 
 #contact svg {
