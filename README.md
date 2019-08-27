@@ -1,29 +1,8 @@
-# v-template
+# MON CV EN LIGNE
 
-## Project setup
-```
-npm install
-```
+## Le projet
+Refonte de mon CV en ligne en utilisant les technologies Node.js et Vue.js ainsi que l'API LinkedIn pour une mise à jour en temps réel des informations.
+/!\ Le projet est toujours en cours de réalisation.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Accéder au site
+Voir [Mon CV en ligne](https://lucid-poincare-36f81e.netlify.com).
