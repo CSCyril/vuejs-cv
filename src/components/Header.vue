@@ -1,12 +1,24 @@
 <template>
     <div id="header">
         <div class="container">
+            <div class="top-header">
+                <div class="reading-indicator">
+                    <div class="indicator-progress"></div>
+                </div>
+                <div class="inner-top-header container">
+                    <div class="top-header-left">
+                        <h5 class="top-header-title">CG.</h5>
+                    </div>
+                    <div class="top-header-right">
+                    </div>
+                </div>
+            </div>
             <div class="head">
                 <h1>{{ infos.firstName }} {{ infos.lastName }}</h1>
                 <h4>{{ infos.headline }}</h4>
                 <div class="button-wrapper">
-                    <a class="" href="#about"><font-awesome-icon icon="eye" /><span> Voir mon profil</span></a>
-                    <a class="" href="#contact"><font-awesome-icon icon="envelope" /><span> Me contacter</span></a>
+                    <a class="button-about" href="#about"><font-awesome-icon icon="eye" /><span> Voir mon profil</span></a>
+                    <a class="button-contact" href="#contact"><font-awesome-icon icon="envelope" /><span> Me contacter</span></a>
                 </div>
             </div>
         </div>
@@ -39,6 +51,10 @@ export default {
     right: 0;
 }
 
+#header .container {
+    height: 100%;
+}
+
 #header h1 {
     color: #1B75BC;
     text-transform: uppercase;
@@ -53,19 +69,125 @@ export default {
     font-weight: 400;
 }
 
-#header .button-wrapper a {
+.top-header {
+    position: fixed;
+    background: #191a1b;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 70px;
+}
+
+.inner-top-header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.top-header-left {
+    text-align: left;
+}
+
+.top-header-title {
+    color: #1B75BC;
+    position: relative;
+    font-weight: 800;
+    line-height: 1.3;
+    font-size: 2em;
+}
+
+.top-header-title::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 2px;
+    left: -12px;
+    top: 0;
+    position: absolute;
+    background: #fff;
+}
+
+.top-header-title::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: calc(100% + 25px);
+    bottom: -2px;
+    left: -12px;
+    background: #fff;
+    position: absolute;
+}
+
+.button-wrapper a {
     border: 1px solid #fff;
+    display: inline-block;
     text-transform: uppercase;
     color: #fff;
     padding: 17px 30px;
+    position: relative;
 }
 
-#header .button-wrapper a:first-child {
+.button-wrapper svg {
+    margin-right: 10px;
+}
+
+.button-wrapper a:first-child {
+    margin-right: 20px; 
+}
+
+.button-wrapper a:first-child::after {
     background: #fff;
-    margin-right: 20px;
 }
 
-#header .button-wrapper a:first-child > span, #header .button-wrapper a:first-child > svg {
+.button-wrapper a::after {
+    content: "";
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #191a1b;
+    border: 1px solid #fff;
+    left: 0.5em;
+    top: -0.5em;
+    -webkit-transition: left 150ms ease-out, top 150ms ease-out;
+    -moz-transition: left 150ms ease-out, top 150ms ease-out;
+    -o-transition: left 150ms ease-out, top 150ms ease-out;
+    transition: left 150ms ease-out, top 150ms ease-out;
+}
+
+.button-wrapper a:first-child span, .button-wrapper a:first-child svg {
     color: #191a1b;
+}
+
+.button-wrapper a span, .button-wrapper a svg {
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    top: -0.5em;
+    left: 0.5em;
+    -webkit-transition: left 150ms ease-out, top 150ms ease-out;
+    -moz-transition: left 150ms ease-out, top 150ms ease-out;
+    -o-transition: left 150ms ease-out, top 150ms ease-out;
+    transition: left 150ms ease-out, top 150ms ease-out;
+}
+
+.button-wrapper a:hover::after, .button-wrapper a:hover span, .button-wrapper a:hover svg {
+    left: 0.25em;
+    top: -0.25em;
 }
 </style>

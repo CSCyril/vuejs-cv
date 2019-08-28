@@ -10,7 +10,7 @@
                         <li class="degree">{{ formation.degree }} {{ formation.degreeSpec }}</li>
                         <li class="date">{{ formation.dateRange }}</li>
                         <li class="place">
-                            <font-awesome-icon icon="dot-circle" />
+                            <font-awesome-icon :icon="['far', 'dot-circle']" />
                             <span>{{ formation.schoolName }}</span>
                         </li>
                         <li class="description">{{ formation.description }}</li>
@@ -40,6 +40,7 @@ export default {
     background: rgba(0, 0, 0, 0.15);
     padding: 39px 30px 40px;
     border-bottom: 5px solid #2c3e50;
+    list-style-type: none;
 }
 .degree {
     color: #1B75BC;
@@ -55,5 +56,10 @@ export default {
 }
 .place {
     text-transform: uppercase;
+    list-style-type: none;
+}
+.place svg {
+    margin-right: 10px;
+    color: #1B75BC;
 }
 </style>

@@ -31,7 +31,8 @@
                                 <a href="#"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
                             </div>
                             <div class="col-md-12 infos">
-                                <p>ddddddddsssssssssd</p>
+                                <p>/!\ INTEGRATION RECOMMANDATIONS LINKEDIN
+                                </p>
                             </div>
                         </div>
                     </div>
