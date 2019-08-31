@@ -40,6 +40,9 @@
                         <!-- <img class="img-fluid" src="../assets/profile.jpg" /> -->
                         <img class="img-fluid" v-bind:src="general.imgUrl" />
                     </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="submit-button" onclick="window.open('cv.pdf')"><font-awesome-icon :icon="['fas', 'file-pdf']" /><span>Télécharger mon CV</span></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,6 +64,7 @@ export default {
 <style>
 #about {
     background: #f7f8fa;
+    padding-bottom: 100px;
 }
 
 .header-section h2 {

@@ -53,7 +53,7 @@
                     </b-form-group>
                     <b-row>
                         <b-col class="text-center">
-                            <b-button class="submit-button" type="submit" variant="primary"><font-awesome-icon icon="paper-plane" style="color: #fff" /><span>Envoyer</span></b-button>
+                            <b-button class="submit-button" type="submit"><font-awesome-icon icon="paper-plane" style="color: #fff" /><span>Envoyer</span></b-button>
                         </b-col>
                     </b-row>
                 </b-form>
@@ -146,10 +146,51 @@ export default {
 }
 
 .submit-button {
-    background: #1B75BC;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #1B75BC;
+    background: transparent;
     color: #fff;
-    padding: 15px 30px;
     border-radius: 0;
+    padding: 15px 30px;
+}
+
+.submit-button:hover {
+    background: transparent;
+}
+
+.submit-button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0.5em;
+    top: -0.5em;
+    border-radius: 0;
+    border: 1px solid #fff;
+    z-index: 1;
+    background: #1B75BC;
+    -webkit-transition: left 150ms ease-out, top 150ms ease-out;
+    -moz-transition: left 150ms ease-out, top 150ms ease-out;
+    -o-transition: left 150ms ease-out, top 150ms ease-out;
+    transition: left 150ms ease-out, top 150ms ease-out;
+}
+
+.submit-button svg, .submit-button span {
+    left: 0.5em;
+    top: -0.5em;
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: left 150ms ease-out, top 150ms ease-out;
+    -moz-transition: left 150ms ease-out, top 150ms ease-out;
+    -o-transition: left 150ms ease-out, top 150ms ease-out;
+    transition: left 150ms ease-out, top 150ms ease-out;
+}
+
+.submit-button:hover::after, .submit-button:hover span, .submit-button:hover svg  {
+    left: 0.25em;
+    top: -0.25em;
 }
 
 .submit-button svg {
