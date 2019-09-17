@@ -33,6 +33,18 @@ export default {
 </script>
 
 <style>
+@media (max-width: 768px) {
+    .single-job ul {
+        min-height: 240px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .single-job ul {
+        min-height: 315px !important;
+    }
+}
+
 #jobs {
     color: #fff;
 }

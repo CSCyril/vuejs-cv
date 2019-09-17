@@ -28,11 +28,18 @@ export default {
         formations: Array
     },
     methods: {
+
     }
 }
 </script>
 
 <style>
+@media (max-width: 768px) {
+    .single-formation ul {
+        min-height: 200px !important;
+    }
+}
+
 #formations {
     color: #fff;
 }
@@ -41,6 +48,7 @@ export default {
     padding: 39px 30px 40px;
     border-bottom: 5px solid #2c3e50;
     list-style-type: none;
+    min-height: 240px;
 }
 .degree {
     color: #1B75BC;

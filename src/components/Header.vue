@@ -37,17 +37,31 @@ export default {
 </script>
 
 <style>
+@media (max-width: 575px) {
+    #header .head {
+        width: 90%;
+    }
+    #header .head .button-wrapper a {
+        display: block;
+        margin-bottom: 20px;
+    }
+    #header .head .button-wrapper .button-about {
+        width: 100%;
+    }
+}
+
 #header {
     height: 100%;
     text-align: center;
 }
 
 .head {
+    width: 90%;
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
     right: 0;
 }
 

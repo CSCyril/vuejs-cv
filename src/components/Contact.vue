@@ -6,21 +6,21 @@
             </div>
             <div class="info-section">
                 <b-row>
-                    <b-col class="text-center contact-info">
+                    <b-col co md="4" class="text-center contact-info">
                         <ul>
                             <li><font-awesome-icon icon="phone" size="3x" /></li>
                             <li>06 86 43 89 58</li>
                             <li><font-awesome-icon :icon="['far', 'dot-circle']" />TELEPHONE</li>
                         </ul>
                     </b-col>
-                    <b-col class="text-center contact-info">
+                    <b-col md="4" class="text-center contact-info">
                         <ul>
                             <li><font-awesome-icon icon="map-marker-alt" size="3x" /></li>
                             <li>Vendenheim, FRANCE</li>
                             <li><font-awesome-icon :icon="['far', 'dot-circle']" />ADRESSE</li>
                         </ul>
                     </b-col>
-                    <b-col class="text-center contact-info">
+                    <b-col md="4" class="text-center contact-info">
                         <ul>
                             <li><font-awesome-icon icon="envelope" size="3x" /></li>
                             <li>greinercyr@gmail.com</li>
@@ -105,10 +105,12 @@ export default {
     padding: 50px 30px 0;
     margin-bottom: 50px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+    text-align: center;
 }
 
 .info-section ul {
     list-style-type: none;
+    padding: 0;
 }
 
 #contact svg {
