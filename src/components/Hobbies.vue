@@ -7,27 +7,27 @@
                 </div>
                 <div id="hobby" class="col-md-12">
                     <div class="row">
-                        <div class="col-sm-6 col-md-4 text-center">
+                        <div class="col-6 col-sm-6 col-md-4 text-center">
                             <font-awesome-icon icon="gamepad" size="3x" />
                             <p>Jeux vidéos</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-center">
+                        <div class="col-6 col-sm-6 col-md-4 text-center">
                             <font-awesome-icon icon="robot" size="3x" />
                             <p>Nouvelles technologies</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-center">
+                        <div class="col-6 col-sm-6 col-md-4 text-center">
                             <font-awesome-icon icon="camera" size="3x" />
                             <p>Photographie</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-center">
+                        <div class="col-6 col-sm-6 col-md-4 text-center">
                             <font-awesome-icon icon="bicycle" size="3x" />
                             <p>Vélo</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-center">
+                        <div class="col-6 col-sm-6 col-md-4 text-center">
                             <font-awesome-icon icon="laptop-code" size="3x" />
                             <p>Développement</p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-center">
+                        <div class="col-6 col-sm-6 col-md-4 text-center">
                             <font-awesome-icon icon="dog" size="3x" />
                             <p>Animaux</p>
                         </div>
