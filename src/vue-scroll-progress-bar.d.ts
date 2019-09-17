@@ -1,0 +1,1 @@
+declare module '@guillaumebriday/vue-scroll-progress-bar';

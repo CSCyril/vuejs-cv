@@ -37,8 +37,8 @@
                         </div>
                     </div>
                     <div class="picture col-lg-5">
-                        <!-- <img class="img-fluid" src="../assets/profile.jpg" /> -->
-                        <img class="img-fluid" v-bind:src="general.imgUrl" />
+                        <img class="img-fluid" src="../assets/profile.jpg" />
+                        <!-- <img class="img-fluid" v-bind:src="general.imgUrl" /> -->
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="submit-button" onclick="window.open('cv.pdf')"><font-awesome-icon :icon="['fas', 'file-pdf']" /><span>Télécharger mon CV</span></button>
@@ -62,6 +62,12 @@ export default {
 </script>
 
 <style>
+@media (max-width: 575px) {
+    .body-section .submit-button {
+        width: 100%;
+    }
+}
+
 #about {
     background: #f7f8fa;
     padding-bottom: 100px;
@@ -135,5 +141,6 @@ export default {
 .picture img {
     border-right: 5px solid #1B75BC;
     width: 100%;
+    margin-bottom: 50px;
 }
 </style>

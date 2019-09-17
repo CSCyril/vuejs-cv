@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueScrollProgressBar from '@guillaumebriday/vue-scroll-progress-bar'
 import BootstrapVue from 'bootstrap-vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope, faEye, faDog, faLaptopCode, faGamepad, faRobot, faCamera, faBicycle, faPhone, faMapMarkerAlt, faPaperPlane, faFilePdf } from '@fortawesome/free-solid-svg-icons'
@@ -11,9 +12,10 @@ library.add(faEnvelope, faEye, faDotCircle, faDog, faLaptopCode, faGamepad, faRo
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue)
+Vue.use(VueScrollProgressBar)
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(App)
 }).$mount('#app')

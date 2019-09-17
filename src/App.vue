@@ -38,11 +38,11 @@ export default {
     AboutMe,
     Header,
     Hobbies,
-    Contact
+    Contact,
   },
   data () {
     return {
-      resume: ''
+      resume: '',
     }
   },
   created () {

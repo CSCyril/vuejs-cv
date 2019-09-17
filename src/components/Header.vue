@@ -2,9 +2,7 @@
     <div id="header">
         <div class="container">
             <div class="top-header">
-                <div class="reading-indicator">
-                    <div class="indicator-progress"></div>
-                </div>
+                <vue-scroll-progress-bar @complete="handleComplete" height="0.2rem" backgroundColor="#1B75BC" />
                 <div class="inner-top-header container">
                     <div class="top-header-left">
                         <h5 class="top-header-title">CG.</h5>
@@ -89,8 +87,8 @@ export default {
     z-index: 999;
     width: 100%;
     left: 0;
-    top: 0;
-    height: 70px;
+    padding-top: 0.2rem;
+    height: calculate(70px + 0.2rem);
 }
 
 .inner-top-header {
