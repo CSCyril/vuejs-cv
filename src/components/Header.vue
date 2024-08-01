@@ -29,7 +29,8 @@
 export default {
     name: 'header',
     props: {
-        infos: Array
+        infos: Array,
+        jobs: Array
     },
     methods: {
     }
