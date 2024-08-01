@@ -14,7 +14,8 @@
             <div class="head">
                 <!--<h1>{{ infos.firstName }} {{ infos.lastName }}</h1>-->
                 <h1>Cyrille GREINER</h1>
-                <h4>{{ infos.headline }}</h4>
+                <!--<h4>{{ infos.headline }}</h4>-->
+                <h4>{{ jobs[0].jobTitle }}</h4>
                 <div class="button-wrapper">
                     <a class="button-about" href="#about"><font-awesome-icon icon="eye" /><span> Voir mon profil</span></a>
                     <a class="button-contact" href="#contact"><font-awesome-icon icon="envelope" /><span> Me contacter</span></a>
