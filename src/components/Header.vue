@@ -11,11 +11,11 @@
                     </div>
                 </div>
             </div>
-            <div class="head">
+            <div class="head" v-for="job in jobs">
                 <!--<h1>{{ infos.firstName }} {{ infos.lastName }}</h1>-->
                 <h1>Cyrille GREINER</h1>
                 <!--<h4>{{ infos.headline }}</h4>-->
-                <h4>{{ jobs.length }}</h4>
+                <h4>{{ job.jobTitle }}</h4>
                 <div class="button-wrapper">
                     <a class="button-about" href="#about"><font-awesome-icon icon="eye" /><span> Voir mon profil</span></a>
                     <a class="button-contact" href="#contact"><font-awesome-icon icon="envelope" /><span> Me contacter</span></a>
@@ -30,7 +30,7 @@ export default {
     name: 'header',
     props: {
         infos: Array,
-        jobs: []
+        jobs: Array
     },
     methods: {
     }
