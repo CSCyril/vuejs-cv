@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="head" v-for="job in jobs">
+            <div class="head">
                 <!--<h1>{{ infos.firstName }} {{ infos.lastName }}</h1>-->
                 <h1>Cyrille GREINER</h1>
                 <!--<h4>{{ infos.headline }}</h4>-->
