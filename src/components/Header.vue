@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="head">
+            <div class="head" v-if="jobs.length">
                 <!--<h1>{{ infos.firstName }} {{ infos.lastName }}</h1>-->
                 <h1>Cyrille GREINER</h1>
                 <!--<h4>{{ infos.headline }}</h4>-->
@@ -30,7 +30,7 @@ export default {
     name: 'header',
     props: {
         infos: Array,
-        jobs: []
+        jobs: Array
     },
     methods: {
     }
