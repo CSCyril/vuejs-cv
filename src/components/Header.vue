@@ -30,7 +30,7 @@ export default {
     name: 'header',
     props: {
         infos: Array,
-        jobs: Array
+        jobs: []
     },
     methods: {
     }
