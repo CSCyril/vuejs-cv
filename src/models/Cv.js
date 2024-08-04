@@ -4,8 +4,7 @@ export default {
     getInitCV () {
         console.log(tag, 'getCV()');
         if (window.fetch) {
-            //return fetch('https://phantombuster.s3.amazonaws.com/L0GHa2EvBCs/32J1x6oMgxrlokkDDjk0zg/result.json', {
-            return fetch('/cyrille_GREINER.resume.json', {
+            return fetch('https://phantombuster.s3.amazonaws.com/L0GHa2EvBCs/32J1x6oMgxrlokkDDjk0zg/result.json', {
                 method: 'get',
                 headers: { 'Content-Type': 'application/json' }
             })
