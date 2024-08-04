@@ -29,6 +29,7 @@ export default {
     name: 'header',
     props: {
         infos: Array,
+        basics: Array
     },
     methods: {
     }
