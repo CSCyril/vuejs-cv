@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="head">
-                <!--<h1>{{ infos.firstName }} {{ infos.lastName }}</h1>-->
+                <h1>{{ basics.name }}</h1>
                 <h1>Cyrille GREINER</h1>
                 <!--<h4>{{ infos.headline }}</h4>-->
                 <div class="button-wrapper">
