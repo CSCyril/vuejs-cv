@@ -4,8 +4,8 @@ export default {
     getInitCV () {
         console.log(tag, 'getCV()');
         if (window.fetch) {
-            //return fetch('https://phantombuster.s3.amazonaws.com/L0GHa2EvBCs/32J1x6oMgxrlokkDDjk0zg/result.json', {
-            return fetch('https://jsonkeeper.com/b/GPYQ', {
+            return fetch('https://phantombuster.s3.amazonaws.com/L0GHa2EvBCs/32J1x6oMgxrlokkDDjk0zg/result.json', {
+            //return fetch('https://jsonkeeper.com/b/GPYQ', {
                 method: 'get',
                 headers: { 'Content-Type': 'application/json' }
             })
