@@ -1,304 +1,237 @@
+[
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Cyrille GREINER",
-    "label": "Chargé de projet digital chez Nesta SAS",
-    "image": "",
-    "email": "greinercyr@gmail.com",
-    "phone": "0686438958",
-    "url": "www.github.com/CSCyril",
-    "summary": "Curieux et passionné par le domaine des nouvelles technologies. Après une formation en informatique décisionnelle et en statistique, je me suis formé au web marketing.\nJ'aime acquérir de nouvelles compétences et découvrir de nouveaux domaines.",
-    "location": {
-      "countryCode": "FR",
-      "address": "France"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "cyrillegreiner",
-        "url": "https://www.linkedin.com/in/cyrillegreiner/"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Nesta SAS",
-      "position": "Chargé de projet digital",
-      "startDate": "2020-02-28",
-      "endDate": "",
-      "highlights": [],
-      "summary": "Gestion et maintenance des sites internet de la société\nIntégration et développement de nouveaux outils pour la gestion et l'aide à la vente en ligne\nGestion de projets et suivi auprès des prestataires\nIntégration d'un PIM/DAM et gestion de la base de données produits\nAdministration des ventes en ligne",
-      "url": "https://www.linkedin.com/company/nesta-sa/",
-      "location": "Région de Strasbourg, France"
-    },
-    {
-      "name": "Assurance Maladie du Bas-Rhin",
-      "position": "Recetteur",
-      "startDate": "2019-12-31",
-      "endDate": "2020-02-28",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/cpam-bas-rhin-assurance-maladie/",
-      "location": "Région de Strasbourg, France"
-    },
-    {
-      "name": "adidas",
-      "position": "Gestionnaire de données",
-      "startDate": "2019-11-30",
-      "endDate": "2019-11-30",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/adidas/",
-      "location": "Strasbourg, Grand Est, France"
-    },
-    {
-      "name": "Voies navigables de France",
-      "position": "Gestionnaire de base de données",
-      "startDate": "2018-10-31",
-      "endDate": "2019-03-31",
-      "highlights": [],
-      "summary": "Contrôle et fiabilisation des données liées aux ouvrages fluviaux.",
-      "url": "https://www.linkedin.com/company/vnf-voies-navigables-de-france/",
-      "location": "Région de Strasbourg, France"
-    },
-    {
-      "name": "Würth France",
-      "position": "Webdesigner / Webmaster",
-      "startDate": "2018-09-30",
-      "endDate": "2018-09-30",
-      "highlights": [],
-      "summary": "Finalisation et création de contenu pour le site Profix.wurth.fr",
-      "url": "https://www.linkedin.com/company/wurth-france/",
-      "location": "erstein"
-    },
-    {
-      "name": "Be Cool57",
-      "position": "Assistant WebMarketing",
-      "startDate": "2018-01-31",
-      "endDate": "2018-04-30",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/christine-andry/",
-      "location": "Région de Metz, France"
-    },
-    {
-      "name": "GRDF",
-      "position": "Gestionnaire de base de données Patrimoine",
-      "startDate": "2016-10-31",
-      "endDate": "2017-08-31",
-      "highlights": [],
-      "summary": "Analyse des données terrain et intégration dans l'outil de maintenance lors de la campagne RIO 2.",
-      "url": "https://www.linkedin.com/company/grdf/",
-      "location": "Montigny-lès-Metz"
-    },
-    {
-      "name": "Magna Lorraine Emboutissage",
-      "position": "Assistant informatique",
-      "startDate": "2015-06-30",
-      "endDate": "2015-08-31",
-      "highlights": [],
-      "summary": "Développement d'un logiciel de suivi d'activité.",
-      "url": "",
-      "location": "Henriville"
-    },
-    {
-      "name": "Magna Lorraine Emboutissage",
-      "position": "Stagiaire",
-      "startDate": "2015-03-31",
-      "endDate": "2015-06-30",
-      "highlights": [],
-      "summary": "Développement d'un logiciel de création de rapports de mesure.",
-      "url": "",
-      "location": "Henriville"
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Institut Français des Affaires",
-      "area": "Responsable Commercial Marketing Digital",
-      "studyType": "Bachelor",
-      "startDate": "2017-12-31",
-      "endDate": "2018-12-31",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Université de Lorraine",
-      "area": "Statistique et Informatique Décisionnelle",
-      "studyType": "DUT",
-      "startDate": "2013-12-31",
-      "endDate": "2015-12-31",
-      "score": "Obtenu",
-      "courses": []
-    },
-    {
-      "institution": "EPITECH - European Institute of Technology",
-      "area": "Informatique",
-      "studyType": "Première année",
-      "startDate": "2012-12-31",
-      "endDate": "2013-12-31",
-      "score": "",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "certificates": [
-    {
-      "name": "Google Digital Active",
-      "issuer": "IAB Europe",
-      "startDate": "2017-09-30"
-    },
-    {
-      "name": "Gérez votre projet informatique facilement !",
-      "issuer": "OpenClassrooms",
-      "startDate": "2018-04-30",
-      "url": "https://openclassrooms.com/course-certificates/1539719281"
-    },
-    {
-      "name": "Démarrez votre projet avec Python",
-      "issuer": "OpenClassrooms",
-      "startDate": "2019-04-30",
-      "url": "http://openclassrooms.com/fr/course-certificates/3744524195"
-    }
-  ],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Développement Web",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Analyse de données",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Excel",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "seo",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Marketing digital",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Google Analytics",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Office",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Programmation web",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Systèmes de gestion de contenu (CMS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Réseaux sociaux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Gestion de projet",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Anglais",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Marketing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Veille stratégique",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft PowerPoint",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PHP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "E-commerce",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "WordPress",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Programmation",
-      "level": "",
-      "keywords": []
-    }
-  ],
-  "languages": [
-    {
-      "language": "fr",
-      "fluency": "Native Speaker"
-    },
-    {
-      "fluency": "Elementary",
-      "language": "Allemand"
-    },
-    {
-      "fluency": "Professional Working",
-      "language": "Anglais"
-    }
-  ],
-  "interests": [],
-  "references": [
-    {
-      "name": "Arthur Haberer",
-      "reference": "Cyrille est un collègue appliqué et sérieux, qui n'hésite pas à donner de sa personne quand la situation le requiert. Nous avons eu l'occasion de travailler en trinôme, Cyrille s'est imposé comme un soutien primordial dans le succès de notre groupe et ce, malgré la pression suscitée par la situation."
-    },
-    {
-      "name": "Christine ANDRY  🍓 ♻",
-      "reference": "En stage 3 mois en marketing digital, j'ai pu apprécié les qualités de Cyrille. Force de proposition après avoir analysé le secteur et l'entreprise, il a su à la fois atteindre tous les objectifs, voir les dépasser pour prendre en main un projet global de communication auquel il a apporté rigueur, sérieux et dynamisme. Ecoute des besoins, recherche de solutions lié au stage mais aussi au contexte de l'entreprise ont contribué à me permettre d'avancer encore plus vite. Son sérieux, son autonomie ont été importants pour l'entreprise. Un grand merci à lui. Un grand regret de ne pouvoir lui offrir un poste pour l'instant\n\n"
-    },
-    {
-      "name": "Mehdi ABBOUD",
-      "reference": "J’ai eu le plaisir de travailler pendant plus d’un an avec Cyrille sur un projet assez conséquent pour le compte de GrDF.\nCyrille a été le parfait collaborateur, très sérieux, il a été force de proposition, réactif, et surtout indispensable à la réussite du projet et je l’en remercie.\nSi l’occasion se représente de collaborer avec lui, je n’hésiterai pas une seule seconde."
-    }
-  ],
-  "projects": [],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+"general": {
+"imgUrl": "https://media.licdn.com/dms/image/C5603AQE-zY5n55GxtQ/profile-displayphoto-shrink_100_100/0/1527660816697?e=1727913600&v=beta&t=ufeYGbks6ZARoNkewg4LXkcqh-j-yvpZg477tUep-Ag",
+"profileUrl": "https://www.linkedin.com/in/cyrillegreiner/",
+"connectionDegree": "You",
+"subscribers": 290,
+"isOpenToWork": false,
+"isHiring": false,
+"description": "Curieux et passionné par le domaine des nouvelles technologies. Après une formation en informatique décisionnelle et en statistique, je me suis formé au web marketing.\nJ'aime acquérir de nouvelles compétences et découvrir de nouveaux domaines.",
+"company": "Nesta SAS",
+"school": "Institut Français des Affaires"
+},
+"jobs": [
+{
+"companyUrl": "https://www.linkedin.com/company/10337006/",
+"companyName": "Nesta SAS",
+"logoUrl": "https://media.licdn.com/dms/image/D560BAQGw19_3TJ2ygA/company-logo_400_400/0/1709732592817/nesta_sa_logo?e=1730332800&v=beta&t=0Z9TSm_N_-eGnKmsWCxwnU7pIRUXw1_QFZVwi_aMf60",
+"jobTitle": "Chargé de projet digital",
+"dateRange": "févr. 2020 - aujourd’hui",
+"startedSince": "2020-01-01",
+"isCurrent": true,
+"duration": "4 ans 7 mois",
+"description": "Gestion et maintenance des sites internet de la société\nIntégration et développement de nouveaux outils pour la gestion et l'aide à la vente en ligne\nGestion de projets et suivi auprès des prestataires\nIntégration d'un PIM/DAM et gestion de la base de données produits\nAdministration des ventes en ligne",
+"location": "Région de Strasbourg, France"
+},
+{
+"companyUrl": "https://www.linkedin.com/company/18468364/",
+"companyName": "Assurance Maladie du Bas-Rhin",
+"logoUrl": "https://media.licdn.com/dms/image/C560BAQFBLkaNlp2EqA/company-logo_400_400/0/1630636398154/cpam_bas_rhin_assurance_maladie_logo?e=1730332800&v=beta&t=tUmyKga1OtE4YVyly4RDAbzDb_dzJNE2zdRiVXBT9Hk",
+"jobTitle": "Recetteur",
+"dateRange": "déc. 2019 - févr. 2020",
+"startedSince": "2019-01-01",
+"isCurrent": false,
+"duration": "3 mois",
+"location": "Région de Strasbourg, France"
+},
+{
+"companyUrl": "https://www.linkedin.com/company/3748/",
+"companyName": "adidas",
+"logoUrl": "https://media.licdn.com/dms/image/D4D0BAQGY6MPyClOhVw/company-logo_400_400/0/1722241280747/adidas_logo?e=1730332800&v=beta&t=9IHNvy6Y6_O0JOtmWwxMJ41bMhOOjyVnfA94R9BHMcE",
+"jobTitle": "Gestionnaire de données",
+"dateRange": "nov. 2019 - nov. 2019",
+"startedSince": "2019-11-01",
+"isCurrent": false,
+"duration": "1 mois",
+"location": "Strasbourg, Grand Est, France"
+},
+{
+"companyUrl": "https://www.linkedin.com/company/600339/",
+"companyName": "Voies navigables de France",
+"logoUrl": "https://media.licdn.com/dms/image/C4D0BAQF25iHfkRNl0A/company-logo_400_400/0/1643989986264/voies_navigables_de_france_logo?e=1730332800&v=beta&t=nn9Dde23l8XxwmN0r3_1msfm-w4MVWap0Yo6qxZD4ew",
+"jobTitle": "Gestionnaire de base de données",
+"dateRange": "oct. 2018 - mars 2019",
+"startedSince": "2018-10-01",
+"isCurrent": false,
+"duration": "6 mois",
+"description": "Contrôle et fiabilisation des données liées aux ouvrages fluviaux. ",
+"location": "Région de Strasbourg, France"
+},
+{
+"companyUrl": "https://www.linkedin.com/company/1426434/",
+"companyName": "Würth France",
+"logoUrl": "https://media.licdn.com/dms/image/C4D0BAQE9GUHBqkxVVQ/company-logo_400_400/0/1631371130910/wurth_france_logo?e=1730332800&v=beta&t=wOTaoAe3LLmRXzM087ja0twPUfYcQtZ51sr6CAIlHYY",
+"jobTitle": "Webdesigner / Webmaster",
+"dateRange": "sept. 2018 - sept. 2018",
+"startedSince": "2018-09-01",
+"isCurrent": false,
+"duration": "1 mois",
+"description": "Finalisation et création de contenu pour le site Profix.wurth.fr",
+"location": "erstein"
+},
+{
+"companyUrl": "https://www.linkedin.com/company/10991315/",
+"companyName": "Be Cool57",
+"logoUrl": "https://media.licdn.com/dms/image/D4E0BAQGHmCKY95tgRg/company-logo_400_400/0/1719257272122/christine_andry_logo?e=1730332800&v=beta&t=h3K0Bu_Zks0MAzS48_sqccUrGrbPayHEpMbObTSLC5o",
+"jobTitle": "Assistant WebMarketing",
+"dateRange": "janv. 2018 - avr. 2018",
+"startedSince": "2018-01-01",
+"isCurrent": false,
+"duration": "4 mois",
+"location": "Région de Metz, France"
+},
+{
+"companyUrl": "https://www.linkedin.com/company/1037919/",
+"companyName": "GRDF",
+"logoUrl": "https://media.licdn.com/dms/image/C4E0BAQFbrgye86-8pw/company-logo_400_400/0/1671574028908?e=1730332800&v=beta&t=XW_REa4f2A0fwI4bRECcMqexrj6zbEH6LJpptaBwVyk",
+"jobTitle": "Gestionnaire de base de données Patrimoine",
+"dateRange": "oct. 2016 - août 2017",
+"startedSince": "2016-10-01",
+"isCurrent": false,
+"duration": "11 mois",
+"description": "Analyse des données terrain et intégration dans l'outil de maintenance lors de la campagne RIO 2.",
+"location": "Montigny-lès-Metz"
+},
+{
+"companyUrl": "",
+"companyName": "Magna Lorraine Emboutissage",
+"location": "Henriville",
+"jobTitle": "Assistant informatique",
+"dateRange": "juin 2015 - août 2015",
+"startedSince": "2015-01-01",
+"isCurrent": false,
+"duration": "3 mois",
+"description": "Développement d'un logiciel de suivi d'activité."
+},
+{
+"companyUrl": "",
+"companyName": "Magna Lorraine Emboutissage",
+"location": "Henriville",
+"jobTitle": "Stagiaire",
+"dateRange": "mars 2015 - juin 2015",
+"startedSince": "2015-03-01",
+"isCurrent": false,
+"duration": "4 mois",
+"description": "Développement d'un logiciel de création de rapports de mesure."
 }
+],
+"schools": [
+{
+"schoolUrl": "",
+"degree": "Bachelor, Responsable Commercial Marketing Digital",
+"schoolName": "Institut Français des Affaires",
+"dateRange": "2017 - 2018"
+},
+{
+"schoolUrl": "https://www.linkedin.com/company/2590455/",
+"schoolName": "Université de Lorraine",
+"logoUrl": "https://media.licdn.com/dms/image/D4E0BAQEzQ8fl6s3YVA/company-logo_400_400/0/1688375511415/universit_de_lorraine_logo?e=1730332800&v=beta&t=MOnhdj6gy-vtB0O_p20wVWAz-dwbhO42oMJPu2KeW1Y",
+"degree": "DUT, Statistique et Informatique Décisionnelle",
+"dateRange": "2013 - 2015"
+},
+{
+"schoolUrl": "https://www.linkedin.com/company/15108010/",
+"schoolName": "Epitech - L'école de l'excellence informatique",
+"logoUrl": "https://media.licdn.com/dms/image/D4E0BAQF4T1yKoSgrMg/company-logo_400_400/0/1698734357614/epitech___european_institute_of_technology_logo?e=1730332800&v=beta&t=qtlpvKGLsGkD8VoIvknnKiH1qKUhB4_ymxrWblKavbc",
+"degree": "Première année, Informatique",
+"dateRange": "2012 - 2013"
+}
+],
+"details": {
+"linkedinProfile": "https://www.linkedin.com/in/cyrillegreiner/",
+"websites": "cyrillegreiner.fr",
+"birthday": "",
+"mail": "greinercyr@gmail.com"
+},
+"skills": [
+{
+"name": "Développement Web",
+"endorsements": 5
+},
+{
+"name": "Analyse de données",
+"endorsements": 5
+},
+{
+"name": "Microsoft Excel",
+"endorsements": 5
+},
+{
+"name": "seo",
+"endorsements": 2
+},
+{
+"name": "Réseaux sociaux",
+"endorsements": 3
+},
+{
+"name": "Marketing",
+"endorsements": 2
+},
+{
+"name": "Gestion de projet",
+"endorsements": 4
+},
+{
+"name": "Marketing digital",
+"endorsements": 2
+},
+{
+"name": "Microsoft Office",
+"endorsements": 4
+},
+{
+"name": "Google Analytics",
+"endorsements": 2
+},
+{
+"name": "Microsoft PowerPoint",
+"endorsements": 1
+},
+{
+"name": "WordPress",
+"endorsements": 2
+},
+{
+"name": "Veille stratégique",
+"endorsements": 4
+},
+{
+"name": "Systèmes de gestion de contenu (CMS)",
+"endorsements": 1
+},
+{
+"name": "Anglais",
+"endorsements": 0
+},
+{
+"name": "E-commerce",
+"endorsements": 0
+},
+{
+"name": "Programmation",
+"endorsements": 1
+},
+{
+"name": "Programmation web",
+"endorsements": 0
+},
+{
+"name": "JavaScript",
+"endorsements": 0
+},
+{
+"name": "PHP",
+"endorsements": 0
+},
+{
+"name": "MySQL",
+"endorsements": 0
+}
+],
+"allSkills": "Développement Web, Analyse de données, Microsoft Excel, seo, Réseaux sociaux, Marketing, Gestion de projet, Marketing digital, Microsoft Office, Google Analytics, Microsoft PowerPoint, WordPress, Veille stratégique, Systèmes de gestion de contenu (CMS), Anglais, E-commerce, Programmation, Programmation web, JavaScript, PHP, MySQL",
+"query": "https://www.linkedin.com/in/cyrillegreiner/",
+"timestamp": "2024-08-01T07:57:29.473Z"
+}
+]
